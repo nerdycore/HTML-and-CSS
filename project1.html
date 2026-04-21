@@ -1,28 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project1.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="project1.css">
+  <title>Bryan Portfolio</title>
 </head>
+
 <body>
-    <div class="Homepage">
-        <div class="banner">
-            <h1 id="title_banner" data-text="Bryan's Potfolio">Bryan's Portfolio</h1>
-            <div class="contents">
-                <button>Home</button>
-                <button>About me</button>
-                <button>Skills</button>
-                <button>Contact me</button>
-            </div>
-        </div>
-        <div class="header">
-            <h1>Hi, I'm <u>John Bryan Ramos</u><br>Bachelor of Computer Science</h1>
-            <p>I designed and code beautifully simple things, and i love what i do.</p>
-            <h2>Studied at:<br>Pangasinan State University</h2>
-            <img src="C:\Users\Administrator\Downloads\code\html\src\Pangasinan_State_University_logo.png">
-        </div>
+  <div class="homepage">
+
+    <!-- NAVBAR -->
+    <div class="banner">
+      <h1 id="title_banner" data-text="Bryan's Portfolio">
+        Bryan's Portfolio
+      </h1>
+
+      <div class="contents">
+        <button>Home</button>
+        <button>About me</button>
+        <button>Skills</button>
+        <button>Contact me</button>
+      </div>
     </div>
+
+    <!-- MAIN SECTION -->
+    <div class="main">
+
+      <!-- TEXT SIDE -->
+      <div class="text-section">
+        <h1>
+          Hi, I'm <u>John Bryan Ramos</u><br>
+          Bachelor of Computer Science
+        </h1>
+
+        <p>
+          I design and code beautifully simple things, and I love what I do.
+        </p>
+
+        <h2>
+          Studied at:<br>
+          Pangasinan State University
+        </h2>
+
+        <!-- FIXED PATH (use relative path) -->
+        <img id="psulogo" src="src/Pangasinan_State_University_logo.png" alt="PSU Logo">
+      </div>
+
+      <!-- IMAGE CARD -->
+      <div class="card">
+        <img src="src/myself.jpg" alt="My Photo">
+      </div>
+
+    </div>
+
+  </div>
 </body>
 </html>
